@@ -1,6 +1,6 @@
 const navbar = document.querySelector('.mobile-navbar')
-const hamburger = document.querySelector('.hamburger')
+const menuBtn = document.querySelector('.menu-btn')
 
-hamburger.addEventListener('click', () => {
+menuBtn.addEventListener('click', () => {
   navbar.classList.toggle('active')
 })
